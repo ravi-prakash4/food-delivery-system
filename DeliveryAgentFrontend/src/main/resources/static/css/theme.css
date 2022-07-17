@@ -1,0 +1,236 @@
+@charset "ISO-8859-1";
+
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family:monospace;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  box-shadow: 0px 5px #aa0037;
+}
+
+.wrapper2 {
+  display: flex;
+  flex: 0 0 85%;
+  background-color:#E30047;
+  height: 100px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.wrapper1 {
+  display: flex;
+  background-color:#E30047;
+  flex: 0 0 15%;
+  height: 100px;
+}
+
+.wrapper2 div{
+  padding: 0 20px 0 0;
+}
+
+.wrapper2 button {
+  border-color: #E30047;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid #E30047;
+  font-family:monospace;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 20px;
+  color: #E30047;
+  box-shadow: 5px 5px #aa0037;
+}
+.wrapper2 button:hover{
+  cursor: pointer;
+  box-shadow: none;
+  transform: translate(5px,5px);
+}
+
+.logo-li-h1{
+  font-size: 28px;
+  padding: 8px 0;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.logo-li-h3{
+  font-size: 18px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.logo{
+  display: flex;
+  position: relative;
+  top: 20px;
+  justify-content: center;
+  align-items: center;
+  border-width:thick;
+  border: solid #E30047;
+  margin: 10px 0px 0px 20px;
+  height: 120px;
+  width: 120px;
+  margin: 0 20px;
+  z-index: 10;
+  background-color: white;
+  border-radius: 10px;
+  color: #E30047;  
+  box-shadow: 5px 5px #aa0037;
+}
+
+.logo:hover{
+  box-shadow: none;
+  transform: translate(5px,5px);
+}
+
+.logo ul{
+  padding: 0;
+  margin: 0;
+}
+
+.page-title {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #E30047;
+}
+
+.page-table {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #E30047;
+  border-color: #E30047;
+  text-align: center;
+}
+
+.page-table table{
+  border-spacing: 0;
+  border-collapse: separate !important;
+  align-items: center;
+  border: solid #E30047;
+  border-radius: 10px;  
+  box-shadow: 5px 5px #aa0037;
+}
+
+.page-table th{
+  height: 70px;
+  font-size: 20px;
+}
+
+.page-table td{
+	padding:10px;
+  height: 50px;
+  font-size: 16px;
+}
+
+.page-table tr:hover{
+  color: white;
+  background-color: #E30047;
+}
+
+input[type=submit] {	
+  margin:15px;
+  border-color: #E30047;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  border: solid #E30047;
+  font-family:monospace;
+  font-style: oblique;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: #E30047;
+  box-shadow: 5px 5px #aa0037;
+}
+input[type=submit]:hover{
+  cursor: pointer;
+  box-shadow: none;
+  transform: translate(5px,5px);
+}
+
+.loginContainer{
+	margin-top:40px;
+	display: flex;align-items: center;justify-content: center;border-radius: 20px;
+	width:600px;height:440px;background-color:#E30047;
+	color:white;
+  box-shadow: 5px 5px #aa0037;
+}
+
+.loginContainer  form{
+	display: flex;align-items: center;justify-content: center;
+	flex-direction:column;
+	text-align:center;
+}
+
+.loginContainer input{	
+	margin-top:20px;
+	padding:0;
+  text-indent: 10px;
+  background-color: white;
+  border-color: #E30047;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid #E30047;
+  font-family:monospace;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 18px;
+  color: #E30047;
+  box-shadow: 5px 5px #aa0037;
+	
+}
+
+.loginContainer input:hover {
+  cursor: pointer;
+  box-shadow: none;
+  transform: translate(5px,5px);	
+}
+
+.loginContainer button[type=submit] {	
+	margin-top:20px;
+	padding:0;
+background-color: white;
+  border-color: #E30047;
+  width: 200px;
+  height: 60px;
+  border-radius: 10px;
+  border: solid #E30047;
+  font-family:monospace;
+  font-style: oblique;
+  font-weight: 600;
+  font-size: 20px;
+  color: #E30047;
+  box-shadow: 5px 5px #aa0037;
+}
+
+.loginContainer button[type=submit]:hover {
+  cursor: pointer;
+  box-shadow: none;
+  transform: translate(5px,5px);	
+}
